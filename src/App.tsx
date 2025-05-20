@@ -1,9 +1,8 @@
 import FullScreenLayout from './components/Layout.tsx'
 
-function App() { 
-
+function App() {    
   return ( 
-    <div className="App h-fit w-full flex flex-row overflow-hidden bg-gray-900 text-blue-50">
+    <div className="App min-h-screen w-full bg-white text-gray-800">
       <FullScreenLayout />
     </div>
   )
