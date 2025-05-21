@@ -230,7 +230,7 @@ const TaskContainer: React.FC<TaskContainerProps> = ({ tasks, onDrop, onRemoveTa
         </button>
         {
           open && (
-            <div className="fixed inset-0 flex items-center justify-center p-4 bg-black bg-opacity-50 z-20">
+            <div className="fixed inset-0 flex items-center justify-center p-4 bg-[#00000098] bg-opacity-0 z-20">
               <form onSubmit={handleAddTask} className="bg-white p-4 sm:p-6 rounded-lg shadow-lg flex flex-col gap-4 w-full max-w-md mx-auto">
                 <h3 className="text-xl font-bold mb-2 text-[#3D348B]">Add New Task</h3>
                 <div className="flex flex-col gap-1">
